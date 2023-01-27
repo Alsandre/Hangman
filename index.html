@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="settings-ui-container">
+      <h1>HangMan</h1>
+      <label for="collections">Select Collection</label>
+      <select name="collection-selector" id="collections"></select>
+      <button id="start-game">START</button>
+    </div>
+    <!-- <div id="ingame-ui-container"></div> -->
+    <div id="game-wrapper">
+        <div id="game-timer">
+            <span id="minutes">--</span>
+            <span id="seconds">--</span>
+        </div>
+        <span id="remaining-words">--/--</span>
+        <div id="slots"></div>
+        <div id="keyboard-container"></div>
+    </div>
+  </body>
+</html>
